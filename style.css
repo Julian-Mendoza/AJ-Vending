@@ -1,5 +1,37 @@
-body {
+p {
+  font-size: 1.1rem;
+}
 
+.body {
+  height: 37.5rem;
+}
+
+.btn {
+  float: right;
+  position: relative;
+  bottom: 109px;
+  right: 20px;
+}
+
+.container {
+  margin-top: 30px;
+}
+
+.footer {
+  text-align: center;
+  background-color: orange;
+  height: 6.25rem;
+}
+
+.logo-header {
+  border-radius: 100%;
+  height: 150px;
+}
+
+.logo-header:hover {
+  content: url('images/darklogo.jpg');
+  border-radius: 100%;
+  height: 9.375rem;;
 }
 
 .very-top {
@@ -8,26 +40,32 @@ body {
   padding-bottom: 10px;
   text-align: center;
 }
-.logo-header {
-  border-radius: 100%;
-  height: 150px;
-}
-.logo-header:hover {
-  content: url('images/darklogo.jpg');
-  border-radius: 100%;
-  height: 150px;
-}
-.footer {
+
+.info-heading {
   text-align: center;
-  background-color: orange;
-  height: 100px
 }
-.body {
-  height: 600px
-}
-.btn{
-float: right;
-position: relative;
-bottom: 109px;
-right: 20px;
+
+@media screen and (max-width: 990px) {
+ .body {
+   height: 100rem;
+ }
+
+ .very-top {
+   height: 14rem;
+ }
+
+ .logo-header {
+   height: 13rem;
+ }
+
+ .logo-header:hover {
+   height: 13rem;
+ }
+
+ h2 {
+   font-size: 2.5rem;
+ }
+ p {
+   font-size: 2.5rem;
+ }
 }
